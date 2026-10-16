@@ -217,7 +217,7 @@ The connection times out because the private address has no route from the inter
 
 ## Bonus
 
-**Bastion host:** the public EC2 doubles as the bastion. `private-sg` only accepts SSH from `public-sg`, so the private instance can only be reached through it.
+Bastion host: the public EC2 doubles as the bastion. `private-sg` only accepts SSH from `public-sg`, so the private instance can only be reached through it.
 ---
 
 ## Cleanup
